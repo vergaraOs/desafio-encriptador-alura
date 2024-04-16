@@ -1,4 +1,4 @@
-<em>Encriptador de Texto.</em>
+<h1 align="center"> Encriptador de Texto.</h1>
 Este programa encriptador de texto es una herramienta simple que permite a los usuarios encriptar y desencriptar texto utilizando un método básico de sustitución de letras. Fue desarrollado como parte de un desafío de programación para practicar habilidades básicas de codificación y para explorar conceptos de JavaScript, HTML y CSS.
 
 Funcionalidades
