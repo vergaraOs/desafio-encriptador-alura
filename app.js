@@ -1,6 +1,6 @@
 
 
-
+/*
 
   // Función para encriptar el texto
 function encriptar() {
@@ -52,4 +52,52 @@ function encriptar() {
     salidaTexto.select();
     document.execCommand("copy");
   }
-  
+  */
+
+  // Función para encriptar el texto
+function encriptar() {
+  var texto = document.getElementById("ingresoTexto").value;
+  var textoEncriptado = encriptarTexto(texto);
+  document.getElementById("salidaTexto").value = textoEncriptado;
+}
+
+// Función para desencriptar el texto
+function desencriptar() {
+  var textoEncriptado = document.getElementById("salidaTexto").value;
+  var texto = desencriptarTexto(textoEncriptado);
+  document.getElementById("ingresoTexto").value = texto;
+}
+
+// Función para encriptar el texto según las llaves proporcionadas
+function encriptarTexto(texto) {
+  // Convertir el texto a minúsculas
+  texto = texto.toLowerCase();
+
+  // Aplicar las transformaciones de encriptación
+  texto = texto.replace(/e/g, "enter");
+  texto = texto.replace(/i/g, "imes");
+  texto = texto.replace(/a/g, "ai");
+  texto = texto.replace(/o/g, "ober");
+  texto = texto.replace(/u/g, "ufat");
+
+  return texto;
+}
+
+// Función para desencriptar el texto según las llaves proporcionadas
+function desencriptarTexto(textoEncriptado) {
+  // Aplicar las transformaciones de desencriptación
+  textoEncriptado = textoEncriptado.replace(/enter/g, "e");
+  textoEncriptado = textoEncriptado.replace(/imes/g, "i");
+  textoEncriptado = textoEncriptado.replace(/ai/g, "a");
+  textoEncriptado = textoEncriptado.replace(/ober/g, "o");
+  textoEncriptado = textoEncriptado.replace(/ufat/g, "u");
+
+  return textoEncriptado;
+}
+
+// Función para copiar el texto encriptado al portapapeles
+function copiarTexto() {
+  var textoEncriptado = document.getElementById("salidaTexto");
+  textoEncriptado.select();
+  document.execCommand("copy");
+}
