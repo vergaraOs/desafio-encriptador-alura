@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto - ALURA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Desafío Encriptador de texto</h1>
+    <div class="container">
+        <div class="contenedorTextarea">
+            <textarea id="ingresoTexto" placeholder="Escribe un texto para encriptar..."></textarea>
+            <button onclick="encriptar()">Encriptar</button>
+        </div>
+        
+        <div class="contenedorTextarea">
+            <textarea id="salidaTexto" placeholder="Texto Encriptado"></textarea>
+            <button onclick="desencriptar()">Desencriptar</button>
+            <button id="copy-button" onclick="copiarTexto()">Copiar</button>
+            
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+
+    
+    <footer>
+        Osvaldo Vergara Pino - Estudiante Alura LATAM - Chile
+    </footer>
+</body>
+</html>
