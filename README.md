@@ -6,7 +6,7 @@ Encriptar texto: Convierte el texto ingresado en un formato encriptado mediante 
 Desencriptar texto: Revierte el proceso de encriptación, permitiendo restaurar el texto original a partir del texto encriptado.
 Copiar texto encriptado: Facilita la copia del texto encriptado al portapapeles con un solo clic.
 Autor
-Este programa fue desarrollado por [Nombre del Desarrollador], un estudiante de [Nombre del Curso o Programa] de [Nombre de la Institución]. Fue creado como parte de un proyecto educativo para practicar y mejorar las habilidades de programación web.
+Este programa fue desarrollado por Osvaldo Vergara Pino, estudiante de Alura LATAM. Fue creado como parte de un proyecto educativo para practicar y mejorar las habilidades de programación web.
 
 Cómo utilizar
 Clona o descarga este repositorio en tu máquina local.
@@ -14,9 +14,10 @@ Abre el archivo index.html en tu navegador web.
 Escribe el texto que deseas encriptar en el primer cuadro de texto.
 Haz clic en el botón "Encriptar" para encriptar el texto.
 El texto encriptado aparecerá en el segundo cuadro de texto.
-Si deseas desencriptar el texto, haz clic en el botón "Desencriptar".
 También puedes copiar el texto encriptado haciendo clic en el botón "Copiar".
+Si deseas desencriptar el texto, haz clic en el botón "Desencriptar".
+
 ¡Disfruta encriptando y desencriptando tus mensajes!
 
 Contribuciones
-Las contribuciones son bienvenidas. Si deseas mejorar este proyecto, por favor, crea una bifurcación (fork) del repositorio, realiza tus cambios y envía una solicitud de extracción (pull request).
+Las contribuciones son bienvenidas.
